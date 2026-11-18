@@ -1,0 +1,127 @@
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #661f11;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding: 5px;
+}
+
+nav {
+    background-color: pink;
+    padding: 15px;
+    margin: 20px -20px;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    background-color: rgb(216, 231, 87);
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: fit-content;
+    border: 2px solid brown;
+    text-decoration: none;
+}
+
+h3::before,
+h3::after {
+    content: none;
+}
+
+.makanan {
+    background-color: rgb(244, 130, 37);
+    border: 5px solid yellow;
+    padding: 20px;
+    width: 80%;
+}
+
+.makanan li {
+    background-color: #e25941;
+    border-bottom: 2px solid rgb(128, 26, 0);
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.minuman {
+    background-color: pink;
+    padding: 20px;
+    width: 80%;
+    list-style-type: disc;
+}
+
+.minuman li {
+    background-color: pink;
+    margin: 5px;
+    padding: 5px;
+}
+
+.lorem {
+    background-color: #d1e7e0;
+    border: 4px solid gray;
+    padding: 10px;
+    width: 80%;
+    list-style-type: square;
+}
+
+.lorem li {
+    background-color: #e6f2ee;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+.icons {
+    background-color: #f7f283;
+    border: 4px solid orange;
+    padding: 10px;
+    width: 90%;
+    list-style-type: none;
+}
+
+.icons li {
+    background-color: #ffff99;
+    border: 1px solid orange;
+    margin: 5px;
+    padding: 5px;
+}
+
+.icons i {
+    color: black;
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.icons svg {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px 5px;
+    fill: black;
+}
+
+.footer {
+    background-color: #661f11;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

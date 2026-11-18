@@ -1,0 +1,97 @@
+body{
+    background-color:azure;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(86, 38, 38);
+}
+p{
+    color:rgb(0, 0, 0);
+    font-size: 40;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'
+}
+p.a{text-align: right;}
+p.b{text-align: center;}
+p.c{text-align: left;}
+h2{
+
+    text-decoration-color:rgb(105, 70, 70);
+  
+}
+h3{
+    text-decoration: none;
+}
+h4{
+    text-decoration: none;
+}
+p.ou{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    background-color: white;
+}
+header {
+    background-color: bisque;
+    text-align: center;
+    padding: 35px;
+    height: 85px;
+}
+header h1 {
+    font-size: 35px;
+    margin-top: 18px;
+}
+nav {
+    background-color: pink;
+    padding: 20px;
+}
+nav a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 45px;
+}
+nav a:hover {
+    color: white;
+}
+h2 {
+    margin: 25px 15px;
+}
+h3 {
+    margin-left: 20px;
+}
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid darkred;
+    padding: 15px;
+    text-align: center;
+}
+th {
+    background-color: pink;
+    color: darkred;
+}
+td {
+    background-color: bisque;
+}
+.makanan {
+    list-style-type: upper-roman;
+    background-color: bisque;
+    padding: 20px 50px;
+    width: 250px;
+}
+.minuman {
+    list-style-type: square;
+    background-color: pink;
+    padding: 20px 50px;
+    width: 250px;
+}
+li {
+    padding: 5px;
+    margin-left: 15px;
+}

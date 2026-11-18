@@ -1,0 +1,508 @@
+body{
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2{
+    background-color: rgb(58, 58, 58);
+    color: rgb(232, 230, 227);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "kiwisoda";
+    font-size: 40px;
+    height: 60px;
+}
+h1{
+    background-color:rgb(58, 58, 58);
+    color: rgb(232, 230, 227);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "northpoint";
+    font-size: 42px;
+    height: 70px;
+    width: 45%
+}
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgb(90, 90, 85);
+    color:rgb(167, 167, 165);
+    border-radius: 5cm;
+    border-color: rgb(75, 60, 39);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "odeng";
+     gap: 60px;
+}
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(75, 60, 39);
+}
+div.foto img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+div.foto img.bottom{
+    opacity: 1;
+    z-index: 2;
+}
+div.foto:hover img.bottom{
+    opacity: 0;
+    transform: scale(1.1);
+}
+div.minuman{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+img{
+    padding: 10px;
+        border-radius: 20px;    
+    }
+div.matcha{
+    width: 275px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: rgb(145, 141, 93);
+    box-shadow: 0 4px 8px 0 rgb(186, 127, 123);
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+}
+div.matcha:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.nai-cha{
+    width: 275px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: rgb(132, 179, 206);
+    box-shadow: 0 4px 8px 0 rgb(225, 237, 168);
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+}
+div.nai-cha:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.starbucks{
+    width: 275px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: rgb(0, 98, 65);
+    box-shadow: 0 4px 8px 0 rgb(193, 158, 129);
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+}
+div.starbucks:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.sakura{
+    width: 275px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: rgb(255, 247, 230);
+    box-shadow: 0 4px 8px 0 rgb(180, 106, 114);
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+}
+div.sakura:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.majik{
+    width: 275px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: rgb(169, 183, 198);
+    box-shadow: 0 4px 8px 0 rgb(45, 58, 71);
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+}
+div.majik:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.hobbies{
+
+    text-align: center;
+
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+
+}
+
+div.piano{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(190, 202, 220);
+
+    box-shadow: 0 4px 8px 0 rgb(140, 150, 175);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.piano:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.ballet{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(224, 194, 211);
+
+    box-shadow: 0 4px 8px 0 rgb(180, 150, 170);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.ballet:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.chess{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(181, 181, 181);
+
+    box-shadow: 0 4px 8px 0 rgb(120, 120, 120);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.chess:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.rubik{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(198, 177, 155);
+
+    box-shadow: 0 4px 8px 0 rgb(150, 125, 100);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.rubik:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.anime{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(202, 185, 211);
+
+    box-shadow: 0 4px 8px 0 rgb(155, 130, 170);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.anime:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+div.pieces{
+
+    text-align: center;
+
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+
+}
+
+div.chopin1{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(218, 190, 190);
+
+    box-shadow: 0 4px 8px 0 rgb(170, 130, 130);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.chopin1:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.liszt{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(190, 196, 218);
+
+    box-shadow: 0 4px 8px 0 rgb(135, 145, 175);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.liszt:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.kreisler{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(215, 201, 177);
+
+    box-shadow: 0 4px 8px 0 rgb(165, 145, 110);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.kreisler:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.chopin2{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(190, 210, 200);
+
+    box-shadow: 0 4px 8px 0 rgb(135, 160, 145);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.chopin2:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+
+}
+
+
+div.fantasie{
+
+    width: 275px;
+    height: 330px;
+
+    border-radius: 15px;
+
+    background-color: rgb(205, 190, 215);
+
+    box-shadow: 0 4px 8px 0 rgb(155, 130, 170);
+
+    margin-bottom: 25px;
+
+    font-family: monospace;
+
+    font-size: larger;
+
+}
+
+div.fantasie:hover{
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+    transform: scale(1.1);
+}
+@font-face {
+    font-family: "sabrina";
+    src: url(SABRINAS.TTF);
+}
+@font-face {
+    font-family: "kiwisoda";
+    src: url(KiwiSoda.ttf);
+}
+@font-face {
+    font-family: "Acidic";
+    src: url(Acidic.TTF);
+}
+@font-face {
+    font-family: "janeausten";
+    src: url(JaneAust.ttf);
+}
+@font-face {
+    font-family: "starrytype";
+    src: url(StarryType.ttf);
+}
+@font-face {
+    font-family: "northpoint";
+    src: url(North\ point.ttf);
+}
+@font-face {
+    font-family: "odeng";
+    src: url(Odeng.ttf);
+}

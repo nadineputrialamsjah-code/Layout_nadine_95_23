@@ -1,0 +1,196 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+h2{
+    background-color: rgb(58, 58, 58);
+    color: rgb(232, 230, 227);
+    text-align: center;
+    width: 100%;
+    font-family: "kiwisoda";
+    font-size: 40px;
+    height: 60px;
+}
+
+
+h1{
+    background-color: rgb(58, 58, 58);
+    color: rgb(232, 230, 227);
+    text-align: center;
+    font-family: "northpoint";
+    font-size: 42px;
+    height: 70px;
+    width: 45%;
+}
+
+
+
+div.intro{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgb(90, 90, 85);
+    color: rgb(232, 230, 227);
+    border-radius: 30px;
+    padding: 25px 40px;
+    font-family: "odeng";
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+div.intro h3{
+    color: rgb(232, 230, 227);
+}
+
+
+h3{
+    color: rgb(58, 58, 58);
+    font-family: "northpoint";
+    font-size: 32px;
+}
+
+
+div.cards{
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+div.cards > div{
+    width: 275px;
+    height: 350px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: larger;
+    padding-top: 5px;
+    transition: transform 0.3s ease;
+}
+
+div.cards > div:hover{
+    overflow: hidden;
+    transform: scale(1.08);
+}
+
+img{
+    padding: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+div.ukulele{
+    background-color: rgb(215, 190, 155);
+    box-shadow: 0 4px 8px 0 rgb(160, 130, 95);
+}
+
+div.cello{
+    background-color: rgb(190, 180, 170);
+    box-shadow: 0 4px 8px 0 rgb(135, 125, 115);
+}
+
+div.flute{
+    background-color: rgb(195, 205, 190);
+    box-shadow: 0 4px 8px 0 rgb(140, 150, 135);
+}
+
+div.violin{
+    background-color: rgb(210, 180, 175);
+    box-shadow: 0 4px 8px 0 rgb(160, 125, 120);
+}
+
+
+div.keroncong-asli{
+    background-color: rgb(190, 180, 155);
+    box-shadow: 0 4px 8px 0 rgb(145, 130, 100);
+}
+
+div.langgam{
+    background-color: rgb(195, 180, 195);
+    box-shadow: 0 4px 8px 0 rgb(145, 125, 145);
+}
+
+div.stambul{
+    background-color: rgb(180, 195, 200);
+    box-shadow: 0 4px 8px 0 rgb(130, 145, 150);
+}
+
+div.modern{
+    background-color: rgb(200, 185, 165);
+    box-shadow: 0 4px 8px 0 rgb(150, 130, 105);
+}
+
+
+div.cards p{
+    margin: 5px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+div.cards span{
+    font-size: 15px;
+}
+
+
+div.history{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+div.history-card{
+    width: 250px;
+    min-height: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(90, 90, 85);
+    color: rgb(232, 230, 227);
+    font-family: "odeng";
+    line-height: 1.5;
+}
+
+div.history-card h4{
+    font-family: "northpoint";
+    font-size: 25px;
+    margin: 5px;
+}
+
+div.culture{
+    margin: 40px auto;
+    width: 65%;
+    background-color: rgb(90, 90, 85);
+    color: rgb(232, 230, 227);
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-family: "odeng";
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+div.culture h3{
+    color: rgb(232, 230, 227);
+}
+
+
+@font-face {
+    font-family: "kiwisoda";
+    src: url(KiwiSoda.ttf);
+}
+
+@font-face {
+    font-family: "northpoint";
+    src: url(North\ point.ttf);
+}
+
+@font-face {
+    font-family: "odeng";
+    src: url(Odeng.ttf);
+}
